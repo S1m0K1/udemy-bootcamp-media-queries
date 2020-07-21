@@ -1,0 +1,321 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12rem;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Class Selectors */
+.line-1 {
+    margin-left: 1.5rem;
+    
+}
+
+.line-2 {
+    margin-left: 7rem;
+    margin-top: -1rem;   
+}
+
+.line-3 {
+    margin-left: 1rem;
+    margin-top: -1.5rem;
+}
+
+.line-3-b {
+    margin-left: 1rem;
+    margin-top: -1.5rem;
+}
+
+.line-3-c {
+    margin-left: 15rem;
+    margin-top: -1.5rem;
+}
+
+/* Media Queries */
+
+/* Extra-Large = 1280px-wide */
+/* Large = 992px-wide */
+@media (min-width: 992px) and (max-width: 1280px) {
+    h1 {
+        color: #003A54;
+        font-size: 12rem;
+        line-height: -1.5;
+    }
+
+    .line-1-a {
+        text-align: center;
+        margin-top: -1rem;
+    }     
+
+    .line-1-b {
+        display: none;
+    }
+
+    .line-1-c {
+        display: none;
+    }
+
+    .line-2-a {
+        margin-left: 7rem;
+        margin-top: -1.5rem;
+    }
+
+    .line-2-b {
+        display: none;
+    }
+
+    .line-2-c {
+        display: none;
+    }
+    
+    .line-3-a {
+        display: none;
+    }
+
+    .line-3-b {
+        color: #FF0052;
+        margin-left: 13rem;
+        margin-top: -2.2rem;
+    }
+    
+    .line-3-c {
+        color: #FF0052;
+        margin-left: 37.5rem;
+        margin-top: -1.5rem;
+    }
+
+    .line-3-d {
+        display: none;
+    }
+
+    .line-4-a {
+        display: none;
+    }
+
+    .line-4-b {
+        display: none;
+    }
+
+    .line-4-c {
+        display: none;
+    }
+
+    .line-4-d {
+        display: none;
+    }
+}
+
+/* Medium = 768px-wide */
+@media (min-width: 769px) and (max-width: 991px) {
+    h1 {
+        color: #003A54;
+        font-size: 12rem;
+        line-height: -1.5;
+    }
+
+    .line-1-a {  
+        margin-left: 2.5rem;
+    }
+
+    .line-1-b {
+        display: none;
+    }
+
+    .line-1-c {
+        display: none;
+    }
+
+    .line-2-a {  
+        margin-left: 8rem;
+        margin-top: -1.5rem;
+    }
+
+    .line-2-b {
+        display: none;
+    }
+
+    .line-2-c {
+        display: none;
+    }
+
+    .line-3-a {
+        display: none;
+    }
+
+    .line-3-b {
+        color: #325D6F; 
+        margin-left: 1.3rem;
+        margin-top: -3rem;
+    }
+
+    .line-3-c {
+        color: #325D6F; 
+        margin-left: 17.5rem;
+        margin-top: -1.3rem;
+    }
+
+    .line-3-d {
+        display: none;
+    }
+
+    .line-4-a {
+        display: none;
+    }
+
+    .line-4-b {
+        display: none;
+    }
+
+    .line-4-c {
+        display: none;
+    }
+
+    .line-4-d {
+        display: none;
+    }
+}
+
+/* Small = >600px-wide */
+@media (min-width: 601px) and (max-width: 768px) {
+    h1 {
+    color: #B32E87;
+    font-size: 12rem;
+    line-height: -1.5;
+}
+
+.line-1-a {
+    display: none;
+}
+
+.line-1-b {
+    text-align: center;
+}
+
+.line-1-c {
+    margin-top: -4rem;
+    text-align: center;
+}
+
+.line-2-a {
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.line-2-b {
+    display: none;
+}
+
+.line-2-c {
+    display: none;
+}
+
+.line-3-a {
+    display: none;
+}
+
+.line-3-b {
+    display: none;
+}
+
+.line-3-c {
+    display: none;
+}
+
+.line-3-d {
+    color: #FFCB30;
+    text-align: center;
+    margin-top: -1.5rem;
+}
+
+.line-4-a {
+    display: none;
+}
+
+.line-4-b {
+    color: #FFCB30;
+    text-align: center;
+    margin-top: -1.5rem;
+}
+
+.line-4-c {
+    display: none;
+}
+
+.line-4-d {
+    display: none;
+}
+}
+
+/* Small = >600px-wide */
+/* Extra-small = <600px-wide */
+@media (max-width: 600px) {
+    h1 {
+        color: #3BB8C4;
+        font-size: 12rem;
+    }
+
+    .line-1-a {
+        display: none;
+    }
+
+    .line-1-b {
+        text-align: center;
+    }
+    
+    .line-1-c {
+        margin-top: -4rem;
+        text-align: center;
+    }
+
+    .line-2-a {
+        display: none;
+    }
+
+    .line-2-b {
+        margin-left: 4rem;
+        margin-top: -2rem;
+    }
+
+    .line-2-c {
+        margin-left: 3rem;
+        margin-top: -2rem;
+    }
+
+    .line-3-a {
+        display: none;
+    }
+    
+    .line-3-b {
+        display: none;
+    }
+    
+    .line-3-c {
+        display: none;
+    }
+    
+    .line-3-d {
+        color: #FF3D2F;
+        margin-left: 0.1rem;
+        margin-top: -2rem;
+    }
+    
+    .line-4-a {
+        display: none;
+    }
+    
+    .line-4-b {
+        display: none;
+    }
+
+    .line-4-c {
+        color: #FF3D2F;
+        margin-left: 0;
+        margin-top: -2.9rem;
+    }
+
+    .line-4-d {
+        color: #FF3D2F;
+        margin-left: 3.5rem;
+        margin-top: -2.5rem;
+    }
+}
